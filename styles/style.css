@@ -183,15 +183,12 @@
   max-inline-size: 696px;
 }
 
-.card__header {
-  border-block-end: 2px solid var(--text-color, #000000);
-  padding: 4px 10px;
-}
-
 .card__title {
   font-size: 18px;
   line-height: normal;
   font-variation-settings: "wght" var(--headings-font-weight, 700);
+  border-block-end: 2px solid var(--text-color, #000000);
+  padding: 4px 10px;
 }
 
 .card__img-wrapper {
@@ -237,7 +234,7 @@
   line-height: calc(21 / 18);
 }
 
-.card__footer {
+.card__section {
   display: flex;
   justify-content: end;
   align-items: stretch;
@@ -275,6 +272,13 @@
   transition: box-shadow 0.3s ease;
   cursor: pointer;
   appearance: none;
+}
+
+.card__like-button {
+  width: 130px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .button:focus {
