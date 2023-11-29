@@ -17,9 +17,7 @@
   --headings-font-weight: 700;
 
   --button-text-color: var(--page-background-color, #fff);
-}
 
-:root {
   --page-background-image: repeating-linear-gradient(
       to left,
       #d3d3d3 0 2px,
